@@ -334,11 +334,6 @@ def count_parameters(model):
 
 num_params = count_parameters(stableDiffusionModel)
 print(f"The model has {num_params:,} trainable parameters.")
-############################################################################
-#                                 TO DO                                    #
-#                Execute this Block, Train & Save the Model                #
-#                            And Plot the Progress                         #
-############################################################################
 
 train_losses, val_losses = train(
     model=stableDiffusionModel,
